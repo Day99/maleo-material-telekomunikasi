@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Blokir crawler pengais konten AI komersial (opsional — hapus bila tak perlu)
-User-agent: CCBot
-Disallow: /
-
-Sitemap: https://material.maleobulava.id/sitemap.xml
