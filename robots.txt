@@ -1,8 +1,23 @@
+# matelco.maleobulava.id — semua mesin pencari & asisten AI boleh membaca situs ini
 User-agent: *
 Allow: /
 
-# Blokir crawler pengais konten AI komersial (opsional — hapus bila tak perlu)
-User-agent: CCBot
-Disallow: /
+# Asisten AI (GEO): agar produk/layanan bisa dikutip ChatGPT, Gemini, Perplexity, Claude, Copilot
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://matelco.maleobulava.id/sitemap.xml
